@@ -45,12 +45,12 @@
            analytics-on analytics-event="Click" analytics-category="Guardian.gg">
           <img src="/assets/img/ggg-logo.png" alt="Guardian.gg">
         </a>
-        <a ng-href="https://my.trials.report/{{player.membershipType === 2 ? 'ps' : 'xbox'}}/{{player.name}}"
+        <a ng-href="https://my.destinytrials.report/{{player.membershipType === 2 ? 'ps' : 'xbox'}}/{{player.name}}"
            type="button" target="_blank" class="btn btn-default" ng-if="!subdomain"
            analytics-on analytics-event="Click" analytics-category="myDestinyTrialsReport">
           myTrialsReport
         </a>
-        <a ng-href="https://trials.report/{{player.membershipType === 2 ? 'ps' : 'xbox'}}/{{player.name}}"
+        <a ng-href="https://destinytrials.report/{{player.membershipType === 2 ? 'ps' : 'xbox'}}/{{player.name}}"
            type="button" target="_blank" class="btn btn-default" ng-if="subdomain"
            analytics-on analytics-event="Click" analytics-category="DestinyTrialsReport">
           DestinyTrialsReport
