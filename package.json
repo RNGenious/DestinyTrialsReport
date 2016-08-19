@@ -3,11 +3,11 @@
   "description": "The ultimate companion for Destiny's Trials of Osiris.",
   "version": "1.1.0",
   "license": "Artistic-2.0",
-  "homepage": "http://www.destinytrialsreport.com/",
-  "author": "https://github.com/DestinyTrialsReport/DestinyTrialsReport/graphs/contributors",
+  "homepage": "http://www.destinytrials.report/",
+  "author": "https://github.com/RNGenious/DestinyTrialsReport/graphs/contributors",
   "repository": {
     "type": "git",
-    "url": "https://github.com/DestinyTrialsReport/DestinyTrialsReport.git"
+    "url": "https://github.com/RNGenious/DestinyTrialsReport.git"
   },
   "dependencies": {
     "adm-zip": "~0.4.7",
