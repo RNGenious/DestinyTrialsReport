@@ -60,7 +60,7 @@
     "unzip": "~0.1.11"
   },
   "scripts": {
-    "postinstall": "postinstall": "echo postinstall time; ./node_modules/grunt-cli/bin/grunt build",
+    "postinstall": "echo postinstall time; ./node_modules/grunt-cli/bin/grunt build",
     "start": "node server.js"
   }
 }
